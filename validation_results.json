@@ -1,0 +1,48 @@
+{
+  "file_format_checks": {
+    "International Concept": {
+      "valid": true,
+      "total_concepts": 377263,
+      "headers": [
+        "id",
+        "effectiveTime",
+        "active",
+        "moduleId",
+        "definitionStatusId"
+      ]
+    }
+  },
+  "reference_checks": {
+    "description_to_concept": {
+      "total_descriptions": 1379910,
+      "orphan_descriptions": 0,
+      "inactive_concepts_referenced": 150041,
+      "orphan_details": []
+    },
+    "relationship_to_concept": {
+      "total_checked": 100000,
+      "valid_relationships": 100000,
+      "invalid_relationships": 0,
+      "invalid_details": []
+    }
+  },
+  "consistency_checks": {
+    "gpfp_international_overlap": {
+      "gpfp_concepts": 2,
+      "gpfp_in_international": 2,
+      "gpfp_only": 0,
+      "overlap_percentage": 100.0
+    },
+    "concepts_without_descriptions": {
+      "count": 0,
+      "sample": []
+    },
+    "relationship_type_distribution": {
+      "116680003": 100000
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "International Description: 150041개의 설명이 비활성 개념을 참조합니다 (정상)"
+  ]
+}
