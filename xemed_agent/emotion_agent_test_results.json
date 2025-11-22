@@ -1,0 +1,50 @@
+[
+  {
+    "sample_id": 1,
+    "esi_level": 2,
+    "utterance": "An 8-month-old presents with fever, cough, and vomiting. The baby has vomited twice this morning; no diarrhea. Mom states the baby is usually healthy but has \"not been eating well lately.\" Doesn't own a thermometer, but knows the baby is \"hot\" and gave acetaminophen two hours prior to arrival. The baby is wrapped in a blanket, eyes open, appears listless, skin hot and moist, sunken fontanel. Respirations are regular and not labored.",
+    "emotion_result": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "sadness",
+      "secondary_score": 0.7,
+      "subtle_emotion": "anxiety",
+      "subtle_score": 0.6,
+      "masked_emotion": "guilt",
+      "emotion_risk_score": 0.8,
+      "reasoning": "The primary emotion of fear is evident due to the concern for the baby's health, especially with symptoms like fever and listlessness. Sadness is present as the mother reflects on her baby's unusual health state, indicated by the phrase 'not been eating well lately.' Anxiety is subtly felt, likely stemming from uncertainty about the baby's condition and the lack of a thermometer. Guilt may be masked, as the mother might feel responsible for not monitoring the baby's health adequately. The overall emotional risk score is high due to the combination of fear, sadness, and anxiety, which could escalate if the baby's condition worsens.",
+      "error": null
+    }
+  },
+  {
+    "sample_id": 2,
+    "esi_level": 1,
+    "utterance": "17-year-old male, history of suicidality, found unresponsive by parents. There are several bottles of liquor, and unidentified empty pill bottles next to bed",
+    "emotion_result": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "sadness",
+      "secondary_score": 0.8,
+      "subtle_emotion": "despair",
+      "subtle_score": 0.7,
+      "masked_emotion": "hopelessness",
+      "emotion_risk_score": 0.9,
+      "reasoning": "The primary emotion of fear is evident due to the critical situation described, indicating a potential life-threatening scenario. Sadness is also present, as the situation reflects a tragic context involving a young individual with a history of suicidality. Despair is subtly indicated by the circumstances, suggesting a deep sense of hopelessness. The masked emotion of hopelessness is inferred from the lack of any positive outlook or mention of support. The overall risk score is high due to the combination of these intense emotions and the potential for escalation in such a critical situation.",
+      "error": null
+    }
+  },
+  {
+    "sample_id": 3,
+    "esi_level": 3,
+    "utterance": "15-year-old female presents to ED with her boyfriend claiming, \"I think I'm pregnant. When I told my mom she threw me out of the house and told me never to come back. I have no place to live, and now I might have a baby.\" VS: BP 126/85, HR 100, RR 16, T 98.7°F.",
+    "emotion_result": {
+      "primary_emotion": "fear",
+      "secondary_emotion": "sadness",
+      "secondary_score": 0.7,
+      "subtle_emotion": "shame",
+      "subtle_score": 0.5,
+      "masked_emotion": "anger",
+      "emotion_risk_score": 0.8,
+      "reasoning": "The patient expresses fear about her pregnancy and homelessness, indicating a high emotional risk. The sadness from being thrown out by her mother contributes to her distress, while the underlying shame about her situation may not be overtly expressed. There is also a potential for suppressed anger regarding her mother's reaction, which could escalate her emotional state. Overall, these factors suggest a significant emotional risk.",
+      "error": null
+    }
+  }
+]
